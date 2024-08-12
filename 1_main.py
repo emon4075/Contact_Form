@@ -3,10 +3,10 @@ import json
 from streamlit_lottie import st_lottie
 
 # Page Settings
-st.set_page_config(page_title="Contact Emon", page_icon=r"E:\Portfolio\assets\goat.png")
+st.set_page_config(page_title="Contact Emon", page_icon=r"goat.png")
 
 # Load the animation
-with open(r"E:\Portfolio\assets\Animation.json") as source:
+with open(r"Animation.json") as source:
     animation = json.load(source)
 
 # Display the Lottie animation
